@@ -9,6 +9,7 @@ public:
   DNAstrand(const DNAstrand& rhs) = delete;
   DNAstrand& operator=(const DNAstrand& rhs) = delete;
   ~DNAstrand();
+  void AddTest(char input[], int size);
 
   void SpliceIn(const char* pattern, DNAstrand& to_splice_in);
 
